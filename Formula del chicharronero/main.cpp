@@ -20,6 +20,7 @@ int main()
     cout << "\n Ingresa el valor del termino independiente (c): \n";
     cin >> c;
     binomio = (b*b) - (4*a*c);
+    
     if (binomio < 0)
     {
         cout << "\n No es posible calcular el resultado para los valores actuales";
